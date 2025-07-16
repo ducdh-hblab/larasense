@@ -50,7 +50,12 @@
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/"
-        }
+        },
+        "files": [
+            "helpers/date.php",
+            "helpers/files.php",
+            "helpers/setting.php"
+        ]
     },
     "scripts": {
         "post-autoload-dump": [
